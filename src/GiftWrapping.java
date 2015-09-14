@@ -1,19 +1,11 @@
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Dimension;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Scanner;
-
-import javax.swing.JDialog;
-import javax.swing.JFrame;
-import javax.swing.JOptionPane;
 
 public class GiftWrapping {
 	Point[] S;
@@ -83,7 +75,6 @@ public class GiftWrapping {
 			out.println(P.get(j));
 		}
 		out.close();
-		
 	}
 
 	public static void main(String[] args) {
